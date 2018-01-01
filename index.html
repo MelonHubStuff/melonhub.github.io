@@ -24,52 +24,73 @@
 		<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Dropdown CSS -->
-    <style>
-    .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
-}
-
-.dropdown-content {
-    display: none;
+<style type="text/css"> 
+<!-- 
+ 
+ #navbar ul { 
+	margin: 1; 
+	padding: 12px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: rgba(0,0,0,0); 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .5em 4em; 
+	color: #fff; 
+	background-color:  #2A3133; 
+        border-radius: 25px;
+	} 
+ 
+#navbar ul li a:hover { 
+	color: white; 
+	background-color: gray 
+    font-family: 'Anton', sans-serif;
+        border-radius: 25px;
+	} 
+ 	.melon {
+   	border-top:		10px solid  #284249;
+	border-left:		4px solid  #284249;
+	border-right:		4px solid  #284249;
+	border-bottom:		12px solid  #284249;
+        border-radius: 25px;
+    }
+    .melon:hover {
+    border-top:	16px solid #a3ceda;
+	border-left: 10px solid #a3ceda;
+	border-right: 10px solid #4f6267;
+	border-bottom: 18px solid #4f6267;
+    }
+    .memes {
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    right: 0;
+    }
+--> 
+body {
+background-color: #2e2c38;
 }
+</style> 
+</head> 
+<body> 
+<div id="navbar"> 
+  <ul> 
+	<li class="melon"><a href="/index.html">Home</a></li> 
+	<li class="melon"><a href="/staff.html">Staff Team</a></li> 
+	<li class="melon"><a href="/info.html">Information</a></li> 
+	<li class="melon"><a href="http://melonhub.boards.net">Forums</a></li> 
+  </ul> 
+</div> 
 
-.dropdown-content a {
-    float: none;
+<iframe class="memes" src="https://discordapp.com/widget?id=325397654240755713&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Anton|Oswald" rel="stylesheet">
+  </body>
+</html>
     color: black;
     padding: 12px 16px;
     text-decoration: none;
